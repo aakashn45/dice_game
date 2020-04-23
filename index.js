@@ -10,6 +10,8 @@ document.querySelectorAll("img")[1].setAttribute("src",imgsrc2);
 if(random1 > random2){
   document.querySelector("h1").innerHTML="Player 1 won";
 }
-else{
+else if(random1 < random2){
     document.querySelector("h1").innerHTML="Player 2 won";
 }
+else{
+  document.querySelector("h1").innerHTML="Its Draw😂";}
